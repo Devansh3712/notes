@@ -1,0 +1,15 @@
+site_name: devansh's notes
+plugins:
+  - search
+  - git-revision-date
+theme:
+  name: terminal
+  palette: gruvbox_dark
+  features:
+    - footer.prev_next
+    - navigation.side.indexes
+    - revision.date
+nav:
+  - home: 'index.md'
+  - low level:
+    - Index: 'low-level/index.md'
