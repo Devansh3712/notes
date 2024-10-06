@@ -10,6 +10,7 @@ this is a collection of notes and documentation of things i'm interested in and 
 - databases
 - computer architecture
 - computer networks
+- distributed computing
 
 ## technologies to learn
 
