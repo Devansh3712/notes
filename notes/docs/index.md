@@ -23,5 +23,6 @@ this is a collection of notes and documentation of things i'm interested in and 
 - elixir
 - rust
 - zig
+- haskell
 - kubernetes
 - asm

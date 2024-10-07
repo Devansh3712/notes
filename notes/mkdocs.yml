@@ -11,5 +11,6 @@ theme:
     - revision.date
 nav:
   - home: 'index.md'
-  - low level:
-    - Index: 'low-level/index.md'
+  - devops:
+    - Index: 'devops/index.md'
+    - jenkins: 'devops/jenkins.md'
