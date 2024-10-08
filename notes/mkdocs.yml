@@ -9,6 +9,8 @@ theme:
     - footer.prev_next
     - navigation.side.indexes
     - revision.date
+markdown_extensions:
+  - def_list
 nav:
   - home: 'index.md'
   - devops:
