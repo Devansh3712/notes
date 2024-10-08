@@ -198,6 +198,7 @@
     <ul>
         <li><a href="#introduction">introduction</a></li>
         <li><a href="#working">working</a></li>
+        <li><a href="#infrastructure">infrastructure</a></li>
         
     </ul>
 </nav>
@@ -211,14 +212,37 @@
 
 <section id="mkdocs-terminal-content">
     <h1 id="introduction">introduction</h1>
-<p>jenkins is an <strong>automation server</strong> that helps automate the process of building, testing, and deploying software. pipelines can be defined as code using <code>groovy</code>, allowing for complex workflows to be managed</p>
+<p>jenkins is an <strong>automation server</strong> that helps automate the process of building, testing, and deploying software. pipelines can be defined as code using <code>groovy</code>, allowing for complex workflows to be managed.</p>
 <h1 id="working">working</h1>
 <ul>
-<li><em>source code integration:</em> can pull code from a VCS whenever changes are detected</li>
-<li><em>build process:</em> automates the process of compiling code, running tests, and packaging the software</li>
-<li><em>deployment:</em> after successful builds and tests, it can deploy the application to different environments</li>
-<li><em>monitoring and reporting:</em> provides real-time feedback on the status of builds and deployments</li>
+<li>can pull code from a VCS whenever changes are detected</li>
+<li>automates the process of compiling code, running tests, and packaging the software</li>
+<li>after successful builds and tests, it can deploy the application to different environments</li>
+<li>provides real-time feedback on the status of builds and deployments</li>
 </ul>
+<h1 id="infrastructure">infrastructure</h1>
+<p>jenkins operates in a distributed architecture that consists of a <strong>master server</strong> and one or more <strong>agents</strong>.</p>
+<dl>
+<dt><code>master server</code></dt>
+<dd>
+<p>it orchestrates all the jobs and tasks, manages the configuration, and provides the web UI. it is responsible for:</p>
+<ul>
+<li>scheduling build jobs</li>
+<li>managing agents</li>
+<li>archiving artifacts</li>
+<li>plugins and configurations</li>
+</ul>
+</dd>
+<dt><code>agents</code></dt>
+<dd>
+<p>they are worker nodes that are responsible for executing build jobs. there are two types of agents - <em>permanent</em> (servers) and <em>digital</em> (ephemeral). key roles of agents are:</p>
+<ul>
+<li>job execution</li>
+<li>isolation of jobs</li>
+<li>distributed builds</li>
+</ul>
+</dd>
+</dl>
 </section>
 
 <section id="mkdocs-terminal-after-content">
@@ -229,7 +253,7 @@
 <aside>
     <p>
         <small>
-            <i>Page last updated 2024-10-07. </i>
+            <i>Page last updated 2024-10-08. </i>
         </small>
     </p>
 </aside>
