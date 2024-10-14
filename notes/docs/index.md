@@ -26,3 +26,8 @@ this is a collection of notes and documentation of things i'm interested in and 
 - haskell
 - kubernetes
 - asm
+
+## books to read
+
+- designing data intensive applications
+- programming massively parallel processors

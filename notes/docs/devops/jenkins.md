@@ -29,3 +29,15 @@ jenkins operates in a distributed architecture that consists of a **master serve
     - job execution
     - isolation of jobs
     - distributed builds
+
+# build types
+
+refers to the different ways jobs can be configured to perform automated tasks.
+
+`freestyle`
+
+:   most basic and flexible type of build, allows to configure and automate simple jobs, which can include tasks like building code, running tests, or deploying applications.
+
+`pipeline`
+
+:   more advanced and modern type of build project, provides a way to define build, test, and deploy processes as code. jenkins pipelines use a domain-specific language written in groovy to define these workflows in a **Jenkinsfile**.
