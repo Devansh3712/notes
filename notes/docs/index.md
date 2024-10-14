@@ -29,5 +29,9 @@ this is a collection of notes and documentation of things i'm interested in and 
 
 ## books to read
 
+- writing an interpreter in go (ongoing)
+- writing a compiler in go
+- introduction to algorithms (ongoing)
 - designing data intensive applications
 - programming massively parallel processors
+- the linux programming interface
