@@ -11,6 +11,7 @@ this is a collection of notes and documentation of things i'm interested in and 
 - computer architecture
 - computer networks
 - distributed computing
+- compression
 
 ## technologies to learn
 
