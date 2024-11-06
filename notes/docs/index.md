@@ -27,6 +27,7 @@ this is a collection of notes and documentation of things i'm interested in and 
 - haskell
 - kubernetes
 - asm
+- graphQL
 
 ## books to read
 
