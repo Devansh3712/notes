@@ -36,6 +36,7 @@ this is a collection of notes and documentation of things i'm interested in and 
 - writing an interpreter in go (ongoing)
 - writing a compiler in go
 - introduction to algorithms (ongoing)
+- learn c the hard way (ongoing)
 - designing data intensive applications
 - programming massively parallel processors
 - the linux programming interface
