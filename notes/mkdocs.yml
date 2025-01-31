@@ -16,3 +16,5 @@ nav:
   - devops:
     - Index: 'devops/index.md'
     - jenkins: 'devops/jenkins.md'
+  - aws:
+    - Index: 'aws/index.md'
